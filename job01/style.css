@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box-container{
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    margin: 0 auto;
+   
+}
+
+/* ------------ top  ---------------*/
+.box-top{
+    display: flex;
+    height: 250px;
+}
+.box-top .top-left{
+    width: 250px;
+    height: inherit;
+    background-color: red;
+}
+.box-top .top-right{
+    width: 250px;
+    height: inherit;
+    background-color: rgb(16, 231, 19);
+}
+
+/* ------------- bottom -----------*/
+
+.box-bottom{
+    display: flex;
+    height: 250px;
+}
+
+.box-bottom .bottom-left{
+    width: 250px;
+    background: #0802a4;
+}
+.box-bottom .bottom-right{
+    width: 250px;
+    background: #09e9e6;
+}

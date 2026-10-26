@@ -1,0 +1,169 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    height: 100vh;
+}
+
+
+.container {
+    background: gray;
+    width: 600px;
+    height: 600px;
+}
+
+.top-section,.bottom-section {
+    width: inherit;
+    height: 200px;
+    background: darkred;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1, .box-7 {
+    width: 200px;
+    background: #0c59d3;
+    height: inherit;
+}
+
+.box-2, .box-8 {
+    width: 200px;
+    background: #000;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-small, .circle-bottom {
+    width: 80px;
+    height: 80px;
+    background: palevioletred;
+    border-radius: 50%;
+
+}
+
+.box-3, .box-9 {
+    width: 200px;
+    background: #22cf12;
+    height: inherit;
+}
+
+
+/* middile section */
+
+.middile-section {
+    /* width: inherit; */
+    height: 200px;
+    background: paleturquoise;
+    display: flex;
+}
+
+.box-4,
+.box-5,
+.box-6 {
+    width: 200px;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-4 {
+    background: #000;
+}
+
+.box-5 {
+    background: mediumvioletred;
+}
+
+.box-6 {
+    background: #000;
+}
+
+/*  circle-medium */
+
+.circle-medium {
+    width: 120px;
+    height: 120px;
+    background: palevioletred;
+    border-radius: 50%;
+}
+
+.circle-large {
+    width: 150px;
+    height: 150px;
+    background: #100307;
+    border-radius: 50%;
+}
+
+
+
+.box-7,
+.box-8,
+.box-9 {
+    width: 200px;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .box-7{
+    background-color: blue;
+} */
+
+
+
+
+
+
+
+
+
+
+/*  
+.grid-container {
+    width: 75%;
+    height: 78vh;
+    border: 5px solid orangered;
+
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 28% 44% 28%;
+}
+
+.box {
+    border: 2.5px solid orangered;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    border: 5px solid orangered;
+    border-radius: 50%;
+}
+
+.circle-small {
+    width: 80px;
+    height: 90px;
+}
+
+.circle-medium {
+    width: 125px;
+    height: 150px;
+}
+
+.circle-large {
+    width: 205px;
+    height: 230px;
+}
+
+.circle-bottom {
+    width: 120px;
+    height: 120px;
+} */
